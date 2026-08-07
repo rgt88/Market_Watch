@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T13:06:36.310898+07:00",
+  "last_updated": "2026-08-07T15:10:07.717234+07:00",
   "usdidr": {
     "value": 17900,
     "unit": "IDR",
@@ -7,16 +7,16 @@
     "source": "frankfurter.dev"
   },
   "ihsg": {
-    "value": 6388.48,
+    "value": 6396.53,
     "previous_close": 6234.497,
-    "change_pct": 2.47,
+    "change_pct": 2.6,
     "currency": "IDR",
     "source": "yahoo_finance"
   },
   "crude_oil": {
-    "value": 78.1,
+    "value": 77.7,
     "previous_close": 80.34,
-    "change_pct": -2.79,
+    "change_pct": -3.29,
     "currency": "USD",
     "source": "yahoo_finance",
     "type": "WTI Crude Oil Futures",
@@ -26,7 +26,7 @@
   "bond_1y": null,
   "bond_5y": null,
   "last_run_status": {
-    "usdidr": "ok",
+    "usdidr": "error: HTTPSConnectionPool(host='api.frankfurter.dev', port=443): Read timed out. (read timeout=15)",
     "ihsg": "ok",
     "crude_oil": "ok",
     "cds_5y": "error: 404 Client Error: Not Found for url: https://www.worldgovernmentbonds.com/cds-country/indonesia/",
