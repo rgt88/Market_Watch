@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T09:51:47.260949+07:00",
+  "last_updated": "2026-08-08T11:08:19.158047+07:00",
   "usdidr": {
     "value": 17846,
     "unit": "IDR",
@@ -26,7 +26,7 @@
   "bond_1y": null,
   "bond_5y": null,
   "last_run_status": {
-    "usdidr": "ok",
+    "usdidr": "error: HTTPSConnectionPool(host='api.frankfurter.dev', port=443): Read timed out. (read timeout=15)",
     "ihsg": "ok",
     "crude_oil": "ok",
     "cds_5y": "error: 404 Client Error: Not Found for url: https://www.worldgovernmentbonds.com/cds-country/indonesia/",
